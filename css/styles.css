@@ -1,0 +1,204 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body {
+    color:rgb(29, 29, 43);
+}
+
+/* header style */
+
+nav {
+    padding: 30px 0;
+    background-color: rgb(54, 57, 69);
+    position: fixed;
+    width: 100%;
+}
+
+nav .nav-items {
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.5rem;
+    color:rgb(156, 158, 160);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+
+nav ul li a:hover {
+    color:rgb(185, 177, 177)
+}
+
+nav ul li a {
+    font-size: 1.25rem;
+    color: rgb(135, 136, 138);
+    text-decoration: none;
+}
+
+/* Home style */
+
+.home {
+    box-sizing: border-box;
+    background-color: rgb(181, 183, 185);
+    height:100vh;
+    padding: 10rem 5rem 0 5rem;
+}
+
+.home h1, .home h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home .introHead {
+    margin-bottom: 5rem;
+}
+
+.home .introHead p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+.home .introHead h1 {
+    font-size: 4rem;
+}
+
+.home .intro, .home .academics, .home .skills, .home .contactMe {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.home h2 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.home .introText {
+    width: 60%;
+}
+
+/* Academics */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    /* padding: 0 10px 0 0; */
+    padding: 0.5rem;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: rgb(156, 158, 160);
+}
+
+.academicsWidth {
+    text-align: left;
+    width: 60%;
+}
+
+/* Skills */
+.skillsWidth {
+    width: 60%;
+}
+
+.skillsHead{
+    margin-bottom: 2rem;
+}
+
+.skillRow{
+    margin: 0 0 9rem 0;
+    text-align: left;
+}
+
+.skill1Image {
+    float: left;
+    margin-right: 2rem;
+}
+
+.skill2Image {
+    float: right;
+    margin-left: 2rem;
+}
+
+/* Contact Me */
+
+.contactMeWidth{
+    background-color: rgb(156, 158, 160);
+    width: 40%;
+    border-radius: 50px;
+}
+
+.contactMe input, textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(54, 57, 69);
+    background-color: rgb(156, 158, 160)
+}
+
+.contactMe textarea{
+    border: 1px solid rgb(54, 57, 69);
+}
+
+.contactMe .btn {
+    padding: 1rem;
+    border-radius: 50px;
+    color: rgb(135, 136, 138);
+    background-color: rgb(29, 29, 43);
+    cursor: pointer;
+    margin: 0.75rem 0.5rem;
+}
+
+.contactMe .btn:hover{
+    background-color: rgb(54, 57, 69);
+    color: rgb(181, 183, 185);
+}
+
+.contactMeForm{
+    margin: 0 auto;
+    /* background-color: blue; */
+    width: 50%;
+}
+
+.formItems{
+
+    color: rgb(29, 29, 43);
+    padding: 0.5rem;
+    margin: 0.75rem 0;
+}
+
+
+/* Footer style */
+
+footer {
+    line-height: 3;
+    padding: 3rem 0 2rem;
+    background-color: rgb(54, 57, 69);
+    color:rgb(135, 136, 138);
+    text-align: center;
+}
+
+.footerLink {
+    margin: 0 0.5rem;
+    list-style-type: none;
+    text-decoration: none;
+    color:rgb(135, 136, 138);
+}
+
+.footerLink:hover {
+    color:rgb(156, 158, 160);
+}
